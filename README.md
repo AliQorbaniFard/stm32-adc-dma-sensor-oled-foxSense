@@ -23,79 +23,31 @@ This project demonstrates practical use of ADC + DMA + I2C display control in an
 - Clean modular code structure
 - Designed for STM32F1 (tested on STM32F100/STM32F103)
 
-🛠 Hardware Requirements
+---
 
-STM32F100C8 or STM32F103C8
+### 🛠 Hardware Requirements
 
-LM35 temperature sensor
+- STM32F103C8
+- LM35 temperature sensor
+- LDR + 10kΩ resistor (voltage divider)
+- 0.96” SSD1306 OLED (I2C)
+- Breadboard + jumper wires
+- 3.3V power supply
 
-LDR + 10kΩ resistor (voltage divider)
+---
 
-0.96” SSD1306 OLED (I2C)
+### 🧠 How It Works
 
-Breadboard + jumper wires
-
-3.3V power supply
-
-🧠 How It Works
 1️⃣ Analog Sensing
-
-Channel 1: LM35 → outputs 10mV per °C
-
-Channel 2: LDR voltage divider → light intensity
+- Channel 1: LM35 → outputs 10mV per °C
+- Channel 2: LDR voltage divider → light intensity
 
 2️⃣ ADC + DMA
-
-ADC scans both channels continuously.
-
-DMA transfers conversion results directly to memory.
-
-CPU remains free for UI and logic tasks.
-
-3️⃣ Data Processing
-
-Temperature conversion:
-
-𝑇
-𝑒
-𝑚
-𝑝
-𝑒
-𝑟
-𝑎
-𝑡
-𝑢
-𝑟
-𝑒
-(
-°
-𝐶
-)
-=
-𝐴
-𝐷
-𝐶
-_
-𝑣
-𝑎
-𝑙
-𝑢
-𝑒
-×
-𝑉
-𝑟
-𝑒
-𝑓
-4096
-×
-10
-𝑚
-𝑉
-Temperature(°C)=
-4096×10mV
-ADC_value×Vref
+- ADC scans both channels continuously.
+- DMA transfers conversion results directly to memory.
+- CPU remains free for UI and logic tasks.
 	​
-
+---
 
 Light threshold determines icon display (bulb or moon).
 
