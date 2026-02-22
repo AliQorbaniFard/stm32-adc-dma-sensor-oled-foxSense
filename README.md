@@ -47,27 +47,22 @@ This project demonstrates practical use of ADC + DMA + I2C display control in an
 - DMA transfers conversion results directly to memory.
 - CPU remains free for UI and logic tasks.
 	​
+
+3️⃣ OLED Interface
+- SSD1306 controlled over I2C
+- Custom icons stored as monochrome C arrays
+- Real-time screen updates
+
 ---
 
-Light threshold determines icon display (bulb or moon).
+### 🚀 Getting Started
 
-4️⃣ OLED Interface
+1- Open project in STM32CubeIDE
+2- Configure clock (typically 8MHz external crystal or internal RC)
+3- Build and flash firmware
+4- Adjust light or temperature and observe OLED response
 
-SSD1306 controlled over I2C
-
-Custom icons stored as monochrome C arrays
-
-Real-time screen updates
-
-🚀 Getting Started
-
-Open project in STM32CubeIDE
-
-Configure clock (typically 8MHz external crystal or internal RC)
-
-Build and flash firmware
-
-Adjust light or temperature and observe OLED response
+---
 
 📂 Repository Structure
 /Core
