@@ -57,10 +57,10 @@ This project demonstrates practical use of ADC + DMA + I2C display control in an
 
 ### 🚀 Getting Started
 
-1- Open project in STM32CubeIDE
-2- Configure clock (typically 8MHz external crystal or internal RC)
-3- Build and flash firmware
-4- Adjust light or temperature and observe OLED response
+1. Open project in STM32CubeIDE
+2. Configure clock (typically 8MHz external crystal or internal RC)
+3. Build and flash firmware
+4. Adjust light or temperature and observe OLED response
 
 ---
 
