@@ -64,34 +64,27 @@ This project demonstrates practical use of ADC + DMA + I2C display control in an
 
 ---
 
-📂 Repository Structure
-/Core
-  /Src
-  /Inc
-/Drivers
-/Images
-README.md
-🎬 Demo
+### 🎬 Demo
 
 Watch the full demonstration on
-Sly Fox Electronics YouTube Channel
+[Sly Fox Electronics YouTube Channel](https://youtube.com/@slyfoxelectronics?si=nL4AMqBF7UZqJSDj)
 
-📜 License
+---
+
+### 📜 License
 
 MIT License – Free to use and modify.
 
-💡 Why This Project Matters
+---
+
+### 💡 Why This Project Matters
 
 This project demonstrates:
 
-Practical use of DMA in embedded systems
-
-Multi-channel ADC configuration
-
-Sensor interfacing
-
-Embedded UI design
-
-Clean firmware architecture
+- Practical use of DMA in embedded systems
+- Multi-channel ADC configuration
+- Sensor interfacing
+- Embedded UI design
+- Clean firmware architecture
 
 Ideal as a portfolio project for embedded engineering roles.
