@@ -1,5 +1,8 @@
 # 🦊 Fox Sense – STM32 Dual-Channel ADC + DMA Sensor Dashboard
 
+![Thumbnail](https://github.com/user-attachments/assets/62fd0a1e-dc1d-475a-b06a-ac715b3acc0f)
+
+
 **Fox Sense is a compact embedded system project built around the STM32F1 series microcontroller.
 It reads temperature and ambient light using dual ADC channels with DMA and displays real-time data on a 0.96” SSD1306 OLED.**
 
